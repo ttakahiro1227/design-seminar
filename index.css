@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  background-color: rgb(248, 246, 219);
+}
+
+header {
+  background-color: #b6ceae;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+header h1 {
+  color: #272b25;
+  margin-left: 20px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  margin-right: 40px;
+  text-decoration: underline dotted #272b25;
+  text-underline-offset: 20%;
+}
+
+.img {
+  width: 800px;
+  height: 500px;
+}
+
+.main {
+  display: flex;
+}
+
+.main-content {
+  margin: auto;
+  text-align: center;
+  font-family: "Reenie Beanie", cursive;
+}
+
+.main-text {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #b6ceae;
+  color: rgb(255, 253, 248);
+  border-radius: 30px;
+  height: 30px;
+  width: 180px;
+  font-family: "Reenie Beanie", cursive;
+}
+
+button:hover {
+  background-color: rgb(243, 239, 188);
+  color: #272b25;
+  cursor: help;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(243, 239, 188);
+  font-size: 15px;
+  color: rgb(31, 30, 25);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
